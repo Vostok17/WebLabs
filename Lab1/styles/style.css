@@ -23,7 +23,9 @@ div {
 .header {
   background-color: var(--bg-color-blue);
   flex-basis: 20%;
+  display:flex;
 }
+
 .content {
   flex-basis: 60%;
   display: flex;
