@@ -4,7 +4,7 @@
   "description": "here will be labs for web",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --no-error-on-unmatched-pattern",
+    "lint": "eslint . --no-error-on-unmatched-pattern --ignore-path .gitignore",
     "lint:fix": "eslint . --fix",
     "format": "prettier --check .",
     "format:fix": "prettier . --write",
