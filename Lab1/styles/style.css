@@ -56,14 +56,17 @@ article{
 
 .text-1{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
     background-color: green;
+    flex:1;
 }
 
 aside{
     display: flex;
     flex-direction: row;
     height: 100%;
+    flex:8;
 }
 
 .list-and-picture
@@ -83,10 +86,20 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .list{
+    height: 30%;
+    width: 100%;
+    flex:1;
     background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list>ol{
+    padding-left: 40px;
 }
 
 .text-2 {
