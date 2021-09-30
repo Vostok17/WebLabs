@@ -9,8 +9,6 @@
     padding: 0;
 }
 
-
-
 body {
     flex-direction: column;
     min-height: 100vh;
@@ -23,9 +21,14 @@ header, footer {
     display: flex;
     min-height: 10vh;
     padding: 0 30px;
+    width: 100%;
 }
-header {justify-content: flex-start;}
-footer {justify-content: flex-end;}
+header {
+    justify-content: flex-start;
+}
+footer {
+    justify-content: flex-end;
+}
 
 img{
     max-width: 300px;
@@ -135,6 +138,10 @@ aside{
     padding-bottom: 10px;
 }
 
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 @font-face{
     font-family: "Shrek"; 
